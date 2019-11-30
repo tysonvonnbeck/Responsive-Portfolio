@@ -45,8 +45,8 @@ container {
 	img {
 		display: block;
 		float: left;
-    margin: 0 auto 20px;
-  }
+		margin: 0 auto 20px;
+ 	}
 }
 
 .spacer {
@@ -75,3 +75,28 @@ footer {
 textarea {
   width: 100%;
 }
+
+.row {
+	margin: 8px -16px;
+}
+
+.row > .column {
+	padding: 8px;
+	  }
+
+.column {
+	float: left;
+	width: 50%;
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.content {
+	background-color: white;
+	padding: 10px;
+	text-align: center;
+  }
+
